@@ -1,0 +1,61 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c",
+        "*.sh": "shellscript",
+        "*.lua": "lua",
+        "*.go": "go"
+    },
+    "files.encoding": "utf8",
+    "files.exclude": {
+        "**/.git": true,
+        "**/book/book": true,
+        "**/.DS_Store": true,
+        "**/vendor": false,
+        "**/*.log": true,
+        "**/*.tags": true,
+        "**/*.gz": true,
+        "**/*.cmo": true,
+        "**/*.cmi": true,
+        "**/pkg/obj": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/cref": true
+    },
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+        // Optional: Disable snippets, as they conflict with completion ranking.
+        "editor.snippetSuggestions": "none",
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
+    "gopls": {
+         // Add parameter placeholders when completing a function.
+        "usePlaceholders": true,
+
+        // If true, enable additional analyses with staticcheck.
+        // Warning: This will significantly increase memory usage.
+        "staticcheck": false,
+    },
+    "plantuml.diagramsRoot": "docs/diagrams/src",
+    "plantuml.exportOutDir": "docs/diagrams/out",
+    "markdownlint.config": {
+        "MD028": false,
+        "MD025": {
+            "front_matter_title": ""
+        }
+    },
+    "[go][go.mod]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    }
+}

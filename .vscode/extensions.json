@@ -1,0 +1,75 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+
+    // Gitlens for Git
+    "eamodio.gitlens",
+
+    // Githistory for Git
+    "donjayamanne.githistory",
+
+    // ocaml-platform for OCaml - https://github.com/ocamllabs/vscode-ocaml-platform
+    "ocamllabs.ocaml-platform",
+
+    // Golang for Golang
+    "golang.go",
+
+    // yinfei.luahelper - https://github.com/Tencent/LuaHelper
+    "yinfei.luahelper",
+
+    // Cpptools for C/C++
+    "ms-vscode.cpptools",
+
+    // Python for Python
+    "ms-python.python",
+
+    // Remisa.shellman for Bash
+    "Remisa.shellman",
+
+    // rashwell.tcl for TCL
+    "rashwell.tcl",
+
+    // Vscode-drawio for Drawio
+    "hediet.vscode-drawio",
+
+    // Ms-python for Python
+    "ms-python.python",
+
+    // Rest-client for REST-TESTING
+    "humao.rest-client",
+
+    // Markdown-all-in-one for Markdown
+    "yzhang.markdown-all-in-one",
+
+    // Debug-visualizer for debug
+    "hediet.debug-visualizer",
+
+    // Vscode-docker for Docker
+    "ms-azuretools.vscode-docker",
+
+    // Gremlinsr for gremlins
+    "nhoizey.gremlins",
+
+    // Tomoki1207 for PDF viewing
+    "tomoki1207.pdf",
+
+    // Vscode-mindma for Mindmap
+    "Souche.vscode-mindmap",
+
+    // Vscode-blink-mind for Mindmap
+    "awehook.vscode-blink-mind",
+
+    // Vscode-todo-highlight for TODO highlight
+    "wayou.vscode-todo-highlight",
+
+    // Gruntfuggly.todo-tree for TODO tree-model-based viewer
+    "Gruntfuggly.todo-tree",
+
+    // alefragnani.Bookmarks for Bookmarks
+    "alefragnani.Bookmarks",
+
+    // vscode-proto3 for proto3 - https://github.com/zxh0/vscode-proto3
+    "zxh404.vscode-proto3"
+  ]
+}
